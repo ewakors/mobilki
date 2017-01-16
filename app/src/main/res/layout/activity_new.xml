@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear"
+    android:background="@color/colorNew"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout style="@style/linear"
+        android:background="@color/colorNew2"
+        android:layout_height="match_parent">
+
+        <ListView style="@style/child"
+            android:id="@+id/ListViewCatalog"
+            android:background="@color/colorNew"
+         >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

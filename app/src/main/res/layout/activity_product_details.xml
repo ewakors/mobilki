@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    style="@style/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/marginLeft">
+
+
+    <ImageView
+            android:id="@+id/ImageViewProduct"
+           style="@style/imageStyleDeatils"
+            android:layout_marginTop="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TextViewProductTitle"
+            style="@style/titleStyle"
+            android:layout_below="@+id/ImageViewProduct"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent">
+        </TextView>
+
+    <TextView
+        android:id="@+id/TextViewProductDetails"
+        style="@style/detailsText"
+        android:text="@string/string_description"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="152dp"
+        android:layout_height="36dp">
+
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/detailsText"
+            android:text="@string/string_product_price"
+            android:layout_width="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignBaseline="@+id/TextViewProductPrice"
+            android:layout_alignBottom="@+id/TextViewProductPrice"
+            android:layout_alignParentStart="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewProductPrice"
+            style="@style/detailsText"
+            android:text="@string/string_price"
+            tools:text="Cena: "
+            android:layout_width="60dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+        </TextView>
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="155dp"
+    android:layout_height="36dp">
+
+    <Spinner
+        android:layout_width="68dp"
+        android:id="@+id/spinner_size"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@+id/size"
+        android:layout_alignBottom="@+id/size"
+        android:layout_alignTop="@+id/size" />
+
+    <TextView
+        android:id="@+id/size"
+        style="@style/detailsText"
+        android:text="@string/string_size"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    </TextView>
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="238dp"
+    android:layout_height="51dp">
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:inputType="number"
+        android:layout_weight="9.65"
+        android:layout_width="40dp"
+        android:text="1"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/ButtonAddToCart"
+        android:layout_alignBottom="@+id/ButtonAddToCart"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp">
+    </EditText>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/ButtonAddToCart"
+        android:layout_gravity="right"
+        android:text="@string/string_add_to_cart"
+        android:elevation="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/editTextQuantity"
+        android:layout_marginStart="12dp">
+    </Button>
+</RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textViewCurrentlyInCart"
+        style="@style/detailsText"
+        android:text="@string/string_currently">
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear"
+    android:background="@color/colorWomen"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/linear"
+        android:background="@color/colorWomen2">
+
+        <ListView style="@style/child"
+            android:id="@+id/ListViewCatalog"
+            android:background="@color/colorWomen"
+>
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

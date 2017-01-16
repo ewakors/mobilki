@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        style="@style/loginPage"
+        android:text="@string/string_register"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/emailStyle"/>
+
+
+    <EditText
+        android:id="@+id/etPass"
+        style="@style/passwordStyle"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnReg"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/string_register_btn"
+        android:onClick="register"
+        android:elevation="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        style="@style/backToLogin"
+        android:layout_below="@+id/btnReg"
+        android:layout_alignEnd="@+id/btnReg"
+        android:layout_marginTop="13dp" />
+</RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearList">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearList2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linearList3.1">
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:orientation">horizontal</item>-->
+        <!--<item name="android:layout_margin">5dip</item>-->
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="linearList3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linearList4">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="child">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/textSize15</item>
+        <item name="android:layout_marginLeft">@dimen/marginList</item>
+        <item name="android:layout_marginRight">@dimen/marginList</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">460dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:dividerHeight">@dimen/marginList</item>
+        <item name="android:divider">@color/white</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+
+    </style>
+
+    <style name="child2">
+        <item name="android:textColor">@color/colorGreenDark</item>
+        <item name="android:textSize">@dimen/textSize10</item>
+        <item name="android:layout_margin">@dimen/marginText5</item>
+        <item name="android:layout_marginTop">@dimen/marginText2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:layout_marginLeft">25dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:paddingTop">@dimen/marginImageTop</item>
+        <item name="android:paddingRight">@dimen/marginText10</item>
+        <item name="android:paddingBottom">@dimen/marginText10</item>
+        <item name="android:layout_width">100dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/marginLeft</item>
+
+        <!--<item name="android:layout_margin">50dip</item>-->
+    </style>
+
+    <style name="imageStyleDeatils">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/deadoralive</item>
+    </style>
+
+
+    <style name="titleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/marginTitle</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:text">@string/string_book_title</item>
+        <item name="android:minLines">2</item>
+        <item name="android:maxWidth">150dip</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="sizeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/string_book_title</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="textList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="quantityText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/string_quantity</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/colorTitle</item>
+    </style>
+    
+    <style name="detailsText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:layout_weight">0.07</item>-->
+    </style>
+
+    <style name="loginPage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="emailStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:hint">@string/string_email</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="passwordStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">@string/string_password</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="nameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorGreen</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="quantityStyle">
+        <item name="android:gravity">right</item>
+        <item name="android:inputType">number</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">1</item>
+    </style>
+
+    <style name="loginBtn" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <!--<item name="android:layout_marginRight">100dp</item>-->
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:shadowColor">@color/colorGreenDark</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="quantityBtn">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="backToLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:text">@string/string_back_to_login</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">12dip</item>
+    </style>
+
+
+</resources>
